@@ -1,0 +1,7 @@
+<div class="row">
+  {% for i in new_text %}
+  <div class="col-md-4">
+  <p>{{ i.message }} - {{ i.created_at }}</p>
+  </div>
+  {% endfor %}
+</div>

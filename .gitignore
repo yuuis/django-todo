@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+*.py.bak
+.DS_Store
+.python-version
+.coverage
+.vscode*
+# Django stuff:
+*.log
+
+#media/
+#!media/iconimage/nophoto/
+#static/
+media/temp/*.jpg
+*\#*
+lp/templates/bkp/
+
+
+*.sql
+*.dump
+*.dump.gz
+*.swp
+*.psd
+*.ai
+*.pdf
+*.icloud
+
+*.psd

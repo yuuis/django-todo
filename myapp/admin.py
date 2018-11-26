@@ -1,3 +1,7 @@
 from django.contrib import admin
+from myapp.models import Posting
 
-# Register your models here.
+class PostingAdmin(admin.ModelAdmin):
+  list_display = ('id', 'message', 'created_at')
+
+admin.site.register(Posting, PostingAdmin)
